@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="pendidikan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="kategori"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kategori">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="jk"/>
+                <xs:element ref="kelas"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="npm"/>
+            </xs:choice>
+            <xs:attribute name="mahasiswa" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alamat" type="xs:NCName"/>
+    <xs:element name="jk" type="xs:NCName"/>
+    <xs:element name="kelas" type="xs:string"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="npm" type="xs:integer"/>
+</xs:schema>

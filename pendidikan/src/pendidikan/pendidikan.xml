@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pendidikan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pendidikan.xsd">
+	<kategori mahasiswa="PoltekPOS">
+		<nama>Faisal Syarifuddin</nama>
+		<npm>1154104</npm>
+		<kelas>D4 TI 2B</kelas> 
+		<alamat>bandung</alamat>
+		<jk>laki-laki</jk>
+		<nama_ayah>bayu</nama_ayah>
+		<nama_ibu>kismi</nama_ibu>
+		<status>mahasiswa</status>
+		<ipk>2.5</ipk>
+		<semester>5</semester>
+		
+		<nama>Eka</nama>
+		<npm>1154105</npm>
+		<kelas>D4 TI 2A</kelas> 
+		<alamat>bandung</alamat>
+		<jk>laki-laki</jk>
+		<nama_ayah>sandi</nama_ayah>
+		<nama_ibu>susi</nama_ibu>
+		<status>mahasiswa</status>
+		<ipk>3.6</ipk>
+		<semester>4</semester>
+	</kategori>
+	
+	<kategori mahasiswa="UI">
+		<nama>Esi</nama>
+		<npm>1164104</npm>
+		<kelas>D4 TI 1A</kelas> 
+		<alamat>bandung</alamat>
+		<jk>perempuan</jk>
+		<nama_ayah>cupang</nama_ayah>
+		<nama_ibu>mimi</nama_ibu>
+		<status>mahasiswa</status>
+		<ipk>4</ipk>
+		<semester>7</semester>
+	</kategori>
+	
+	<kategori mahasiswa="PolBan">
+		<nama>Boby</nama>
+		<npm>1114104</npm>
+		<kelas>D4 TI 2B</kelas> 
+		<alamat>bandung</alamat>
+		<jk>laki-laki</jk>
+		<nama_ayah>babe</nama_ayah>
+		<nama_ibu>kumi</nama_ibu>
+		<status>mahasiswa</status>
+		<ipk>2.9</ipk>
+		<semester>2</semester>
+	</kategori>
+	
+	<kategori mahasiswa="UNPAD">
+		<nama>Kurnia</nama>
+		<npm>1114105</npm>
+		<kelas>D4 TI 2A</kelas> 
+		<alamat>bandung</alamat>
+		<jk>laki-laki</jk>
+		<nama_ayah>buras</nama_ayah>
+		<nama_ibu>nia</nama_ibu>
+		<status>mahasiswa</status>
+		<ipk>3.0</ipk>
+		<semester>1</semester>
+	</kategori>
+	
+	<kategori mahasiswa="UNHAS">
+		<nama>Kakang</nama>
+		<npm>1124104</npm>
+		<kelas>D4 TI 1A</kelas> 
+		<alamat>bandung</alamat>
+		<jk>perempuan</jk>
+		<nama_ayah>lontong</nama_ayah>
+		<nama_ibu>kari</nama_ibu>
+		<status>mahasiswa</status>
+		<ipk>3.9</ipk>
+		<semester>3</semester>
+	</kategori>
+	
+</pendidikan>
